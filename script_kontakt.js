@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 let f = kontakt;
 let ime_prezime = f.ime_prezime;
 let email = f.email;
