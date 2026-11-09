@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://teodoravuksanovic.github.io/TeodoraVuksanovicVD2026/sitemap.xml
+Sitemap: https://teodoravuksanovic.github.io/sitemap.xml
