@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 let j = 0; 
 const br = 7;
 let slike = [];
