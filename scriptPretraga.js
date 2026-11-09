@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 
 let unos = document.getElementById("unos");
 function Pretraga(){
