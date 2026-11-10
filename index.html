@@ -9,6 +9,14 @@
     <meta name="author" content="Teodora Vuksanović">
     <link rel="icon" type="image/x-icon" href="slike/favicon.ico">
     <link rel="stylesheet" href="style.css">
+
+    <meta property="og:url"           content="https://teodoravuksanovic.github.io/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Deco Dream" />
+    <meta property="og:description"   content="Deco Dream pruža usluge dekorisanja proslava, izrade dekorativnih aranžmana, organizacije događaja, fotografisanja i snimanja.
+						 Naš cilj je da svaku proslavu prilagodimo vašim željama i učinimo je nezaboravnom." />
+    <meta property="og:image"         content="https://teodoravuksanovic.github.io/slike/slika2.jpg" />
+
 </head>
 <body>
   <header>
@@ -25,7 +33,17 @@
           </ul>
           
     </nav>
-</header>
+  </header>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 <main class="sadrzaj">
 <div class="hero-image">
     <div class="hero-text">
@@ -66,6 +84,10 @@
 </div>
 </main>
 <footer>
+    <div class="fb-share-button"
+    data-href="https://www.your-domain.com/your-page.html"
+    data-layout="button_count">
+</div>
   <p>&copy; 2026 Teodora Vuksanović</p>
 </footer>
 <script src="script_index.js"></script>
